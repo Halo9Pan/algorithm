@@ -6,7 +6,7 @@ import info.halo9pan.algorithm.RandomNumber;
 
 public class Bubble {
 	
-	private static final int COUNT = 100;
+	private static final int COUNT = 10;
 
 	public static void sort() {
 		int a[] = RandomNumber.integer(COUNT);
@@ -18,6 +18,7 @@ public class Bubble {
 					temp = a[j];
 					a[j] = a[j + 1];
 					a[j + 1] = temp;
+					System.out.println(Arrays.toString(a));
 				}
 			}
 		}
