@@ -29,13 +29,16 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../revert.c 
+../revert.c \
+../ten_numbers.c 
 
 OBJS += \
-./revert.o 
+./revert.o \
+./ten_numbers.o 
 
 C_DEPS += \
-./revert.d 
+./revert.d \
+./ten_numbers.d 
 
 EXECUTABLES += \
 ./revert.exe

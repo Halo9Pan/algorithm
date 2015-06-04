@@ -23,3 +23,23 @@ random_chars(int length, char *cs)
   }
   return;
 }
+
+void
+random_unsigned_shorts(int length, unsigned short *ss)
+{
+  srand(time(NULL));
+  for (int i = 0; i < length; ++i) {
+	ss[i] = (rand() * (USHRT_MAX - 0) / RAND_MAX);
+  }
+  return;
+}
+
+void
+random_range_shorts(int length, short *ss, short from, short to)
+{
+  srand(time(NULL));
+  for (int i = 0; i < length; ++i) {
+	ss[i] = (rand() * (to - from) / RAND_MAX);
+  }
+  return;
+}
