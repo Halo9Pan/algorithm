@@ -4,20 +4,22 @@ import java.util.Arrays;
 
 import info.halo9pan.algorithm.RandomNumber;
 
-public class Bubble {
+public class Select {
 	
 	private static final int COUNT = 100;
+	private static final int FROM = 0;
+	private static final int TO = 1000;
 
 	public static void sort() {
-		int a[] = RandomNumber.integer(COUNT);
+		int a[] = RandomNumber.integer(COUNT, FROM, TO);
 		System.out.println(Arrays.toString(a));
 		int temp = 0;
-		for (int i = 0; i < a.length - 1; i++) {
-			for (int j = 0; j < a.length - 1 - i; j++) {
-				if (a[j] > a[j + 1]) {
+		for (int i = 0; i < a.length; i++) {
+			for (int j = i; j < a.length; j++) {
+				if (a[i] > a[j]) {
 					temp = a[j];
-					a[j] = a[j + 1];
-					a[j + 1] = temp;
+					a[j] = a[i];
+					a[i] = temp;
 					System.out.println(Arrays.toString(a));
 				}
 			}
