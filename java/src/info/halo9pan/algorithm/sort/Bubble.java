@@ -6,10 +6,12 @@ import info.halo9pan.algorithm.RandomNumber;
 
 public class Bubble {
 	
-	private static final int COUNT = 100;
+	private static final int COUNT = 16;
+	private static final int FROM = 0;
+	private static final int TO = 100;
 
 	public static void sort() {
-		int a[] = RandomNumber.integer(COUNT);
+		int a[] = RandomNumber.integer(COUNT, FROM, TO);
 		System.out.println(Arrays.toString(a));
 		int temp = 0;
 		for (int i = 0; i < a.length - 1; i++) {

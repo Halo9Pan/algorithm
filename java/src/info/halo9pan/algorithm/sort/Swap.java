@@ -4,11 +4,11 @@ import java.util.Arrays;
 
 import info.halo9pan.algorithm.RandomNumber;
 
-public class Select {
+public class Swap {
 	
-	private static final int COUNT = 100;
+	private static final int COUNT = 16;
 	private static final int FROM = 0;
-	private static final int TO = 1000;
+	private static final int TO = 100;
 
 	public static void sort() {
 		int a[] = RandomNumber.integer(COUNT, FROM, TO);
