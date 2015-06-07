@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.mingw.exe.debug.1956122845/CPATH/delimiter=;
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.mingw.exe.debug.1956122845/CPATH/operation=remove
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.mingw.exe.debug.1956122845/C_INCLUDE_PATH/delimiter=;
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.mingw.exe.debug.1956122845/C_INCLUDE_PATH/operation=replace
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.mingw.exe.debug.1956122845/C_INCLUDE_PATH/value=K\:\\Sol\\OpenCL\\include;K\:\\Sol\\CUDA\\include;K\:\\Nemesis\\jdk\\include;K\:\\Nemesis\\jdk\\include\\win32;K\:\\Nemesis\\mingw\\lib\\gcc\\x86_64-w64-mingw32\\4.9.2\\include;K\:\\Nemesis\\mingw\\lib\\gcc\\x86_64-w64-mingw32\\4.9.2\\include-fixed;K\:\\Nemesis\\mingw\\x86_64-w64-mingw32\\include;K\:\\Nemesis\\mingw\\include;K\:\\Nemesis\\opencv\\include
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.mingw.exe.debug.1956122845/append=true
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.mingw.exe.debug.1956122845/appendContributed=true
+environment/buildEnvironmentLibrary/cdt.managedbuild.config.gnu.mingw.exe.debug.1956122845/LIBRARY_PATH/delimiter=;
+environment/buildEnvironmentLibrary/cdt.managedbuild.config.gnu.mingw.exe.debug.1956122845/LIBRARY_PATH/operation=replace
+environment/buildEnvironmentLibrary/cdt.managedbuild.config.gnu.mingw.exe.debug.1956122845/LIBRARY_PATH/value=K\:\\Sol\\OpenCL\\lib;K\:\\Sol\\CUDA\\lib;K\:\\Nemesis\\jdk\\lib;K\:\\Nemesis\\mingw\\lib\\gcc\\x86_64-w64-mingw32\\4.9.2;K\:\\Nemesis\\mingw\\x86_64-w64-mingw32\\lib;K\:\\Nemesis\\mingw\\lib;K\:\\Nemesis\\opencv\\mingw\\lib
+environment/buildEnvironmentLibrary/cdt.managedbuild.config.gnu.mingw.exe.debug.1956122845/append=true
+environment/buildEnvironmentLibrary/cdt.managedbuild.config.gnu.mingw.exe.debug.1956122845/appendContributed=true
